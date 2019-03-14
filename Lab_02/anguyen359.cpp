@@ -39,7 +39,7 @@ void mergeSort(int intArray[], int start, int end) {
 
 void merge(int intArray[], int start, int mid, int end) {
     int i, j;
-    int temp[end];
+    int temp[end + 1];
     for(i = start; i <= mid; i++) {
         temp[i] = intArray[i];
     }
